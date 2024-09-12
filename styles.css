@@ -111,8 +111,9 @@ body {
   background-color: #555;
 }
 
-/* Media query para pantallas entre 375px y 425px */
-@media (min-width: 375px) and (max-width: 426px) {
+/* Media query para pantallas pequeñas */
+@media (375px <= width <= 426px) {
+
   .changelog-item::before,
   .changelog-item::after {
     left: 30%;
@@ -123,8 +124,8 @@ body {
   }
 }
 
-/* Media query para pantallas de 320px o menos */
-@media (max-width: 320px) {
+@media (width <= 320px) {
+
   .changelog-item::before,
   .changelog-item::after {
     left: 33%;
