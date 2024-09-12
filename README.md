@@ -37,8 +37,8 @@ For more information and detailed guidance on creating a Changelog Component, pl
 
 - Timeline Visualization: The changelog component uses a combination of CSS pseudo-elements (::before and ::after) to create a dot and line that represent the timeline.
 - Adaptive Layout:
-- - Uses Media Queries Level 4 syntax for precise control over the layout at different screen widths.
-- - Adjustments have been made to ensure that the component looks good on screens as small as 320px.
+  - Uses Media Queries Level 4 syntax for precise control over the layout at different screen widths.
+  - Adjustments have been made to ensure that the component looks good on screens as small as 320px.
 
 ### 6. License
 
